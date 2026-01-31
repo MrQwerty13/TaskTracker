@@ -1,12 +1,12 @@
-from Infrastructure.repositories.in_memory_task_repository import InMemoryTaskRepository
+from Infrastructure.in_memory_task_repository import InMemoryTaskRepository
 
 from UseCases.add_task import AddTaskCase
 from UseCases.update_task import UpdateTaskCase
 from UseCases.delete_task import DeleteTaskCase
 from UseCases.get_tasks import GetTasksCase
 
-from Entities.task import Task
-from Entities.task_attributes import TaskCategory, TaskPriority, TaskStatus
+from Task.task import Task
+from Task.task_attributes import TaskCategory, TaskPriority, TaskStatus
 
 
 def main():
